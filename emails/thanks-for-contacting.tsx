@@ -108,21 +108,12 @@ export const SellerSubscription = ({
                 }}
                 className='absolute max-w-[540px] bg-white rounded--md  top-[15%] left-[50%] translate-x-[-50%]'
               >
-                <Container className='h-[197px] bg-primary text-center rounded-t-md flex items-center justify-center flex-col'>
-                  <svg
-                    width='50'
-                    height='50'
-                    viewBox='0 0 60 60'
-                    fill='none'
-                    xmlns='http://www.w3.org/2000/svg'
-                  >
-                    <rect width='60' height='60' rx='30' fill='#3AC267' />
-                    <path
-                      d='M13.5 30L24 40.5L45.75 18.75'
-                      stroke='white'
-                      strokeWidth='5'
-                    />
-                  </svg>
+                <Container className='h-[197px]  bg-primary text-center rounded-t-md flex items-center justify-center flex-col'>
+                  <Img
+                    src='https://i.ibb.co/qNsj6SX/svgviewer-png-output-24.png'
+                    className='flex items-center justify-center mx-auto'
+                  />
+
                   <Heading
                     as='h1'
                     style={{
@@ -130,7 +121,7 @@ export const SellerSubscription = ({
                     }}
                     className='text-white m-0 mt-1 text-4xl font-semibold'
                   >
-                    You have successfully <br /> subcribed to LynkTown
+                    Thank you for contacting
                   </Heading>
                 </Container>
                 <Container className='py-5 px-4 rounded-b-md font-sans text-textPrimary '>
